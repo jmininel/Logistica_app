@@ -41,7 +41,6 @@ INDEX VERSION 1.131+C:\Users\Juliana\Desktop\workspace_springboot\logistica-app\
 1006323517.index
 2414953992.index
 1685950910.index
-2481136401.index
 1239720487.index
 1588480563.index
 3982566929.index
