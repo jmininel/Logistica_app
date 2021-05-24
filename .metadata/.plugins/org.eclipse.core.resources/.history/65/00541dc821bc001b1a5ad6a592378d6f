@@ -1,0 +1,5 @@
+package com.algaworks.logistica.api.exceptionalhandler;
+
+public class ApiExceptionHandler {
+
+}

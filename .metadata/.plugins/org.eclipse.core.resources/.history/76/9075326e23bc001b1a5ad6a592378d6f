@@ -1,0 +1,5 @@
+package com.algaworks.logistica.api.exceptionhandler;
+
+public class Problema {
+
+}
