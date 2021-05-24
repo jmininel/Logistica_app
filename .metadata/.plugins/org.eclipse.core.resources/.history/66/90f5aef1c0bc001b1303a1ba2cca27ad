@@ -1,0 +1,9 @@
+package com.algaworks.logistica.domain.model;
+
+public class Entrega {
+	
+	private Long Id;
+	private Cliente cliente;
+	private Destinatario destinatario;
+
+}

@@ -1,0 +1,16 @@
+package com.algaworks.logistica.domain.model;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+public class Entrega {
+	
+	private Long Id;
+	private Cliente cliente;
+	private Destinatario destinatario;
+	private BigDecimal taxa;
+	private StatusEntrega status;
+	private LocalDateTime dataPedido;
+	private LocalDateTime dataFinalizacao;
+
+}

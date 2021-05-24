@@ -1,0 +1,11 @@
+package com.algaworks.logistica.domain.service;
+
+import com.algaworks.logistica.domain.repository.EntregaRepository;
+
+public class SolicitacaoEntregaService {
+	
+	private EntregaRepository entregaRepository {
+		
+	}
+
+}

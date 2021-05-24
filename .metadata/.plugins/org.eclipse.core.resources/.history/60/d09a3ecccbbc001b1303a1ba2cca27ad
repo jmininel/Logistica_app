@@ -1,0 +1,5 @@
+package com.algaworks.logistica.domain.service;
+
+public class SolicitacaoEntregaService {
+
+}

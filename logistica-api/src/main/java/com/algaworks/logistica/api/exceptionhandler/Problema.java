@@ -1,6 +1,5 @@
 package com.algaworks.logistica.api.exceptionhandler;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 
