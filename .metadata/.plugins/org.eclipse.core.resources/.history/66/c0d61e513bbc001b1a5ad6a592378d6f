@@ -60,7 +60,7 @@ protected ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotV
    	    problema.setTitulo(ex.getMessage());
    	    
     	  
-    	  return handleExceptionInternal(ex,problema, new HttpHeaders(), status, request);
+    	  return handleExceptionInternal(ex,problema, new HttpHeaders(), status, request)
       }
 
 

@@ -65,7 +65,7 @@ public class ClienteController {
 		}
 		
 		cliente.setId(clienteId);
-		cliente = catalogoClienteService.salvar(cliente);
+		cliente = clienteRepository.save(cliente);
 		return ResponseEntity.ok(cliente);
 		
 	   }
@@ -76,7 +76,7 @@ public class ClienteController {
 			return ResponseEntity.notFound().build();
 		}
 		
-		catalogoClienteService.excluir(clienteId);
+		clienteRepository.deleteById(clienteId);
 		
 		return ResponseEntity.noContent().build();
  	}
